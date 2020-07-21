@@ -92,9 +92,35 @@ body{
     transition: 300ms all;
  }
 
- #menu a:hover{
-     color: #ff2a2a;
+ #menu a:hover, #menu .active{
+     color: #078025;
  }
+
+ .alert-success-provisional{
+    color:green; 
+    font-weight:bold;
+ }
+
+ .alert-danger-provisional{
+    color:red; 
+    font-weight:bold;
+ }
+
+ .yeargreen{
+     background: green !important;
+     color: white !important;
+     padding: 10px !important;
+     width: 111px !important;
+     text-align: center !important;
+ }
+
+ .yearred{
+    background: red !important;
+    color: white !important;
+    padding: 10px !important;
+    width: 111px !important;
+    text-align: center !important;
+}
 
  #slider {
     
